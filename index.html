@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="box" onclick="toggleBox('box1')">
+      <div class="discounted-price">
+        <p>1 Unit <span class="offer">10% Off</span></p>
+        <p>$10.00 USD</p>
+      </div>
+      <p class="price">$14.00 USD</p>
+
+      <div class="options" id="box1">
+        Size <span class="expand">Color</span>
+        <div>
+          <select>
+            <option>S</option>
+            <option>M</option>
+            <option>L</option>
+          </select>
+          <select>
+            <option>Red</option>
+            <option>Blue</option>
+            <option>White</option>
+          </select>
+        </div>
+      </div>
+    </div>
+    <div class="box" onclick="toggleBox('box2')">
+      <div class="discounted-price">
+        <p>2 Unit <span class="offer">20% Off</span></p>
+        <p>$18.00 USD</p>
+      </div>
+      <p class="price">$24.00 USD</p>
+      <div class="options options2" id="box2">
+        Size <span class="expand">Color</span>
+        <div>
+          <select>
+            <option>S</option>
+            <option>M</option>
+            <option>L</option>
+          </select>
+
+          <select>
+            <option>Red</option>
+            <option>Blue</option>
+            <option>White</option>
+          </select>
+        </div>
+      </div>
+    </div>
+    <div class="box" onclick="toggleBox('box3')">
+      <div class="discounted-price">
+        <p>3 Unit <span class="offer">30% Off</span></p>
+        <p>$24.00 USD</p>
+      </div>
+      <p class="price">$24.00 USD</p>
+      <div class="options" id="box3">
+        Size <span class="expand">Color</span>
+        <div>
+          <select>
+            <option>S</option>
+            <option>M</option>
+            <option>L</option>
+          </select>
+
+          <select>
+            <option>Red</option>
+            <option>Blue</option>
+            <option>White</option>
+          </select>
+        </div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
